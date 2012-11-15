@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <GridLayout
+        android:id="@+id/gridLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" >
+    </GridLayout>
+
+    <ToggleButton
+        android:id="@+id/ToggleButton03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="ToggleButton" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ToggleButton03"
+        android:layout_alignBottom="@+id/ToggleButton03"
+        android:layout_alignLeft="@+id/Button03"
+        android:layout_alignParentRight="true"
+        android:text="アラーム5" />
+
+    <ToggleButton
+        android:id="@+id/ToggleButton02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_alignParentLeft="true"
+        android:text="ToggleButton" />
+
+    <Button
+        android:id="@+id/Button03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ToggleButton02"
+        android:layout_alignBottom="@+id/ToggleButton02"
+        android:layout_alignLeft="@+id/Button02"
+        android:layout_alignParentRight="true"
+        android:text="アラーム4" />
+
+    <ToggleButton
+        android:id="@+id/ToggleButton01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Button03"
+        android:layout_alignParentLeft="true"
+        android:text="ToggleButton" />
+
+    <Button
+        android:id="@+id/Button02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ToggleButton01"
+        android:layout_alignBottom="@+id/ToggleButton01"
+        android:layout_alignLeft="@+id/Button01"
+        android:layout_alignParentRight="true"
+        android:text="アラーム3" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Button02"
+        android:layout_alignParentLeft="true"
+        android:text="ToggleButton" />
+
+    <ToggleButton
+        android:id="@+id/ToggleButton04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/toggleButton1"
+        android:layout_alignParentLeft="true"
+        android:text="ToggleButton" />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/toggleButton1"
+        android:layout_alignBottom="@+id/toggleButton1"
+        android:layout_alignLeft="@+id/Button04"
+        android:layout_alignParentRight="true"
+        android:text="アラーム2" />
+
+    <Button
+        android:id="@+id/Button04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ToggleButton04"
+        android:layout_alignBottom="@+id/ToggleButton04"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/ToggleButton04"
+        android:text="アラーム1" />
+
+    <AnalogClock
+        android:id="@+id/analogClock1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/gridLayout1"
+        android:layout_toRightOf="@+id/gridLayout1" />
+
+</RelativeLayout>

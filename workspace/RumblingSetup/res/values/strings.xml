@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">RumblingSetup</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_rumbling_setup">Rumbling Setup</string>
+
+</resources>
